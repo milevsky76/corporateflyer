@@ -1,0 +1,69 @@
+.main-header
+    background: linear-gradient(90deg, rgba($text-color2, 1) 45%, rgba($bg-color, 0) 45%)
+    &__wrap
+        display: flex
+        background-color: transparent
+    &__bevel
+        flex-shrink: 0
+        transform: skew(-35deg)
+    &__call
+        flex-grow: 1
+        margin-left: -30px
+
+.bevel
+    width: 50%
+    height: 145px
+    background-color: $text-color2
+    &::after
+        content: ''
+        position: absolute
+        top: 0
+        left: -20px
+        z-index: -1
+        display: block
+        width: 100%
+        height: 100%
+        background-color: $text-color2
+        transform-origin: bottom left
+        transform: skewX(35deg)
+    &__text
+        box-sizing: border-box
+        display: flex
+        justify-content: flex-start
+        align-items: flex-end
+        height: 105px
+        width: 89%
+        margin: 0
+        padding: 0
+        transform: skew(35deg)
+        background-color: $text-color2
+        +roB
+        font-size: 44px
+        color: #ffffff
+
+.call
+    display: flex
+    flex-direction: column
+    align-items: flex-end
+    justify-content: flex-end
+    height: 105px
+    background-color: $bg-color
+    &__wrap
+        display: flex
+        flex-direction: column
+    &__top
+        margin: 0
+        padding: 0
+        +roSB
+        font-size: 27px
+        color: $text-color2
+    &__number
+        color: $text-color
+        &:hover, &:focus
+            text-decoration: underline
+    &__webs
+        margin-bottom: 10px
+        font-size: 19px
+        color: $text-color
+        &:hover, &:focus
+            text-decoration: underline
