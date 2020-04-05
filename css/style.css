@@ -199,4 +199,17 @@ body {
   width: 1px !important;
   overflow: hidden;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #414242;
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=style.css.map */

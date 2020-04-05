@@ -1,0 +1,19 @@
+@mixin roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin roL {
+    font-weight: 300;
+}
+
+@mixin roR {
+    font-weight: 400;
+}
+
+@mixin roSB {
+    font-weight: 500;
+}
+
+@mixin roB {
+    font-weight: 700;
+}
