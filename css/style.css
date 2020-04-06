@@ -338,4 +338,52 @@ body {
 .call__webs:hover, .call__webs:focus {
   text-decoration: underline;
 }
+
+.about {
+  position: relative;
+  z-index: -1;
+  min-width: 1140px;
+  height: 718px;
+  margin-top: -40px;
+  background-color: #835E67;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.about__wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 170px;
+  padding: 40px 170px;
+  background-color: rgba(0, 0, 0, 0.78);
+  text-align: center;
+}
+
+.about__title {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 34px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.about__title_color_pink {
+  color: #E96786;
+}
+
+.about__text {
+  width: 780px;
+  margin: 0 auto;
+  padding: 0;
+  font-weight: 300;
+  font-size: 19px;
+  color: #ffffff;
+  line-height: 1.5;
+}
 /*# sourceMappingURL=style.css.map */

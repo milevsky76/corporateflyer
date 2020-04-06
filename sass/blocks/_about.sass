@@ -1,0 +1,38 @@
+.about
+    position: relative
+    z-index: -1
+    min-width: 1140px
+    height: 718px
+    margin-top: -40px
+    background-color: #835E67
+    background-image: url(../img/bg.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: left bottom
+    &__wrap
+        position: absolute
+        left: 0
+        right: 0
+        bottom: 0
+        min-height: 170px
+        padding: 40px 170px
+        background-color: rgba(#000000,0.78)
+        text-align: center
+    &__title
+        margin: 0
+        margin-bottom: 15px
+        padding: 0
+        +roB
+        font-size: 34px
+        color: #ffffff
+        text-transform: uppercase
+        &_color_pink
+            color: $text-color2
+    &__text
+        width: 780px
+        margin: 0 auto
+        padding: 0
+        +roL
+        font-size: 19px
+        color: #ffffff
+        line-height: 1.5
