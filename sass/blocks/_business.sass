@@ -1,0 +1,70 @@
+.business
+    display: flex
+    padding: 70px 0
+    background-color: $bg-color
+    &__feature
+        width: 50%
+    &__success
+        width: 50%
+
+.feature
+    &__title
+        margin: 0
+        margin-bottom: 35px
+        padding: 0
+        +roB
+        font-size: 35px
+        &_color_pink
+            color: $text-color2
+    &__list
+        margin: 0
+        padding: 0
+        list-style: none
+    &__item
+        position: relative
+        padding-left: 75px
+        &:not(:last-child)
+            margin-bottom: 20px
+    &__wrap-svg
+        position: absolute
+        left: 0
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 45px
+        height: 45px
+        background-color: $text-color2
+        border-radius: 50%
+        &_color_gray
+            background-color: $text-color
+    &__svg
+    &__subtitle
+        margin: 0
+        padding: 0
+        +roSB
+        font-size: 25px
+        color: $text-color2
+        line-height: 45px
+    &__text
+        margin: 0
+        padding: 0
+        width: 360px
+        +roL
+        font-size: 20px
+        
+.success
+    display: flex
+    flex-direction: column
+    &__title
+        margin: 0
+        padding: 0
+        font-size: 56px
+        &_color_pink
+            color: $text-color2
+    &__img
+        height: 212px
+        margin-top: auto
+        background-image: url(../img/bg.jpg)
+        background-repeat: no-repeat
+        background-position: -191px -329px
+        background-color: $text-color
